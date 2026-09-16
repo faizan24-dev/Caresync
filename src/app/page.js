@@ -1,15 +1,14 @@
 import { cookies } from 'next/headers';
-import Header from '../components/Header';
-import Hero from '../components/Hero';
-import About from '../components/About';
-import Modules from '../components/Modules';
-import Footer from '../components/Footer';
+import Header from '../components/Header.jsx';
+import Hero from '../components/Hero.jsx';
+import About from '../components/About.jsx';
+import Modules from '../components/Modules.jsx';
+import Footer from '../components/Footer.jsx';
 
 // Force Next.js to dynamically render this page on every request
 export const dynamic = 'force-dynamic';
 
 export default async function Home() {
-  // Securely check the cookies on the server to see if a token exists
   const cookieStore = await cookies();
   const isLoggedIn = cookieStore.has('token');
 
