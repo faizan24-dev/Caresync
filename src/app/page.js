@@ -1,9 +1,9 @@
 import { cookies } from 'next/headers';
-import Header from '../components/Header.jsx';
-import Hero from '../components/Hero.jsx';
-import About from '../components/About.jsx';
-import Modules from '../components/Modules.jsx';
-import Footer from '../components/Footer.jsx';
+import Header from '../Components/Header.jsx';
+import Hero from '../Components/Hero.jsx';
+import About from '../Components/About.jsx';
+import Modules from '../Components/Modules.jsx';
+import Footer from '../Components/Footer.jsx';
 
 // Force Next.js to dynamically render this page on every request
 export const dynamic = 'force-dynamic';
