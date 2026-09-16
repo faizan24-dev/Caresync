@@ -2,6 +2,7 @@ import { cookies } from 'next/headers';
 import Header from '../components/Header';
 import Hero from '../components/Hero';
 import About from '../components/About';
+import Modules from '../components/Modules';
 import Footer from '../components/Footer';
 
 // Force Next.js to dynamically render this page on every request
